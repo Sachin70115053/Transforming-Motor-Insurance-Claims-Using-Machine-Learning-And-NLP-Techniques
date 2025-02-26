@@ -77,11 +77,7 @@ model = IsolationForest(contamination=0.05)
 fraud_labels = model.fit_predict(claim_data[['CLAIM_AMOUNT']])
 ```
 
-📌 **Sample Visualization:**
 
-![Fraud Detection](https://user-images.githubusercontent.com/example/fraud-detection.png)
-
----
 
 ## 🎯 Business Prospects
 ✔️ **Faster and more accurate claim verification**  
@@ -100,5 +96,4 @@ We welcome contributions! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 ---
 
-## 📝 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
